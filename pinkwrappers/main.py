@@ -8,4 +8,3 @@ def logtime(func):
         print(f'{func.__name__} took {time.time()-start_time} sec')
         return result
     return wrapper
-
